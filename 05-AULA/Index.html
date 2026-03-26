@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+
+    <!-- CSS EXTERNO - Arquivo .css separado -->
+    <style>
+      body {
+        background-color: navajowhite;
+      }
+    </style>
+    <!-- CSS INTERNO - Área dentro da própria página -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <!-- CSS INLINE - No elemento especifico -->
+      <h1 style="font-size: 100px">O site +top do Brasil (e região)</h1>
+      <nav>
+        <ul>
+          <li>HOME</li>
+          <li>CONTATO</li>
+          <li>SOBRE</li>
+          <li>SERVIÇOS</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Conteúdo -->
+    <main>
+      <h2>Um subtitulo extremamente relevante</h2>
+      <h2>Mesma coisa que o de cima ai</h2>
+
+      <div id="caixa-rosa">
+        <p>Uma caixa</p>
+      </div>
+
+      <!-- div>div*3 -->
+      <div id="caixa-roxe">
+        <div class="caixinha">Mini caixa 1</div>
+        <div class="caixinha">Mini caixa 2</div>
+        <div class="caixinha">Mini caixa 3</div>
+      </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <td colspan="4">Todos os direitos estao reservados &copy;</td>
+    </footer>
+  </body>
+</html>

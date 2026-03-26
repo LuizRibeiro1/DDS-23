@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    
+    margin: 30px;  
+    font-family: "Inter", sans-serif;
+    background-color: #2298E1;
+    line-height: 1.6;
+}
+
+.container {
+    
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.Topo {
+    
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    
+}
+.logo{
+    width: 30%;
+    letter-spacing: 7px;
+    padding: 30px;
+    margin: 30px;
+    background-color: white;
+}
+
+.logo img{
+    
+    background-color: white;
+    width: 50%;
+    letter-spacing: 7px;
+    max-width: 50%;
+    display: block;
+
+
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 4px;
+}
+
+.menu a {
+    color: gray;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    min-height: 85px; 
+}
+
+.video{
+     margin: 30px;
+     background-color: white;
+}
+
+.Sobre{
+    background-color: white;
+}

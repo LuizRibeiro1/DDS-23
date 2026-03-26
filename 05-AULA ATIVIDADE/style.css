@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: red;
+}
+
+header{
+    background-color: lightgray;
+    padding: 40px;
+}
+
+.conteudo{
+
+    background-color: green;
+    border: solid black;
+    padding: 40px;
+    margin: 20px;
+}
+
+footer{
+    background-color: rgb(122, 122, 122);
+    padding: 30px;
+}
