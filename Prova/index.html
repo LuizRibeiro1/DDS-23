@@ -1,65 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conta Gotas</title>
     <!-- Importação dos icones -->
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
 
-
-</head>
-
-<div class="logo">
-    <img src="./img.png" alt="" />
-
-    <img src="img2.png" alt="" />
-</div>
-
-<body>
+  <body>
+    <!-- Juntei as imagens com o menu para ficarem juntos em cima -->
     <header class="Topo">
-        <nav class="navegacao">
-            <ul class="menu">
-                <!-- Opção do menu 1 -->
-                <li>
-                    <a href="#Home">
-                        Home
-                    </a>
-                </li>
+      <div class="logo">
+        <img src="./img/img.png" alt="" />
 
+        <img src="img/img2.png" alt="" />
+      </div>
 
-                <!-- Opção do menu 2 -->
-                <li>
-                    <a href="#Como economizar">
-                        Como economizar
-                    </a>
-                </li>
+      <nav class="navegacao">
+        <ul class="menu">
+          <!-- Opção do menu 1 -->
+          <li>
+            <a href="#Home"> Home </a>
+          </li>
 
+          <!-- Opção do menu 2 -->
+          <li>
+            <a href="#Como economizar"> Como economizar </a>
+          </li>
 
-
-                <!-- Opção do menu 3 -->
-                <li>
-                    <a href="#Jogos">
-                        Jogos
-                    </a>
-                </li>
-        </nav>
+          <!-- Opção do menu 3 -->
+          <li>
+            <a href="#Jogos"> Jogos </a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-
-
-    <div class="video">
+    <div class="container">
+      <!-- Cartao de login e o video -->
+      <div class="card">
         <h2>Conheça nosso projeto</h2>
-        <img src="./img3.png" alt="">
+
+        <div class="img-video">
+          <img src="img/img3.png" alt="" />
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Redes Sociais</h2>
+
+        <!-- Icones dos apps -->
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
+
+        <div class="linha"></div>
+
+        <h2>Faça seu login</h2>
+
+        <p class="cadastro">
+          Não tem cadastro? <a href="#">Seja um voluntário</a>
+        </p>
+
+        <!-- Icones para ter interação na hora de botar email senha e tals -->
+        <form>
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Senha" required />
+
+          <div class="opcoes">
+            <label> <input type="checkbox" /> Lembrar </label>
+            <a href="#">Esqueceu sua senha?</a>
+          </div>
+
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
     </div>
 
-    <h2>Apoio</h2>
-
-    <div class="Sobre">
-        <h2>Sobre nós</h2>
-        <footer>A campanha “Conta Gotas” tem como objetivo conscientizar a população sobre a racionalização de água tendo em vista que várias cidades do Brasil já estão sofrendo com o racionamento de água. Por isso, a palavra do momento é economizar, cada gota economizada é um ponto a mais na luta para a conservação da Água no Planeta.</footer>
+    <div class="patrocinadores">
+      <h2>Apoio</h2>
+      <div class="img-patrocinio">
+        <img src="./img/img4.png" alt="" />
+        <img src="img/img5.png" alt="" />
+        <img src="img/img6.png" alt="" />
+        <img src="img/img7.png" alt="" />
+        <img src="img/img8.png" alt="" />
+      </div>
     </div>
-</body>
 
+    <div class="rodape">
+      <div class="coluna">
+        <!-- primera colona -->
+        <h3>Sobre nós</h3>
+        <p>
+          A campanha “Conta Gotas” tem como objetivo conscientizar a população
+          sobre a racionalização de água tendo em vista que várias cidades do
+          Brasil já estão sofrendo com o racionamento de água. Por isso, a
+          palavra do momento é economizar, cada gota economizada é um ponto a
+          mais na luta para a conservação da Água no Planeta.
+        </p>
+
+        <img src="./img/img.png" alt="Conta Gotas" class="logo-rodape" />
+      </div>
+
+      <!-- informaçoes da 2 coluna -->
+      <div class="coluna">
+        <h3>Mapa do Site</h3>
+        <ul>
+          <li>HOME PAGE</li>
+          <li>COMO ECONOMIZAR</li>
+          <li>JOGOS</li>
+          <li>CADASTRO</li>
+          <li>LOGIN</li>
+        </ul>
+      </div>
+
+      <!-- informações da 3 coluna -->
+      <div class="coluna">
+        <h3>Contato</h3>
+        <p><strong>Telefone:</strong> 4002-8922</p>
+        <p><strong>Whatsapp:</strong> 27 97070-7070</p>
+        <p><strong>Email:</strong> contagotas@gmail.com</p>
+        <p>
+          <strong>Endereço:</strong><br />
+          Av. Mal. Mascarenhas de Moraes, 2235 - Bento Ferreira, Vitória - ES
+        </p>
+        <p>
+          <strong>Horário:</strong><br />
+          Segunda a sexta-feira, das 7h às 19h<br />
+          Exceto feriados nacionais e locais
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
