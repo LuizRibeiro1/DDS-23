@@ -203,7 +203,7 @@ a {
 }
 
 /* INLINE E INLINE-BLOCL */
-.linha-exemplo,
+.linha-exemplo
 .linha-cards-inlineblock {
     background-color: white;
     border-radius: 20px;

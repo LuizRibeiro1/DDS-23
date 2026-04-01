@@ -28,6 +28,10 @@ body{
 }
 
 #grid{
+
+}
+
+#grid{
     background-color: blue;
     height: 900px;
     display: grid;
